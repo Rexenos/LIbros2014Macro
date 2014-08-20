@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Agregar Libro</title>
+	</head>
+
+	<body>
+		<header>
+			<img style = "display: inline" src = "birdjesus.jpg" width = "200" height = "150" 
+			alt="Imagen" > &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<h1 style = "display: inline">Lista de Libros Dsiponibles</h1>
+		</header>
+	<hr>
+		<nav>
+			<h3>Opciones</h3>
+			<a href = "LibroPrincipal.html"> <text> Volver al inicio </text> </a>&nbsp&nbsp&nbsp&nbsp
+			<a href = "mostrarlibros.html"> <text> Mostrar Libros</text>
+    		</a>
+		</nav>
+	<hr>
+		<h1> Datos del libro nuevo</h1>
+		<form method = "get" action = "datoscargados.html">
+			<p>
+				<label> Nombre del Libro:
+					<input name = "name" type = "text" size = "25"
+					maxlength ="30" autofocus required/>
+				</label>
+			</p>
+			<p>
+				<label>Nombre del Autor:
+					<input type = "text" size = "25"
+					maxlength ="30" autofocus required/>
+				</label>
+			</p>
+			<p>
+				<label>Año de publicación:
+					<input type = "text" size = "25"
+					maxlength ="30" autofocus required/>
+				</label>
+			</p>
+			<p>
+				<label>Campo:
+					<select name = "campo">
+						<option selected>Otro</option>
+						<option>Ciencia</option>
+						<option>Biología</option>
+						<option>Historia</option>
+						<option>Ficción</option>
+						<option>Fantasía</option>
+					</select>
+				</label>
+			</p>
+			<p>
+				<label> Estado:&nbsp&nbsp
+					<input type="checkbox" name="version" value="Impresa" /> Impresa &nbsp&nbsp&nbsp&nbsp
+    				<input type="checkbox" name="version" value="Electronica" /> Electronica
+				</label>
+			</p>
+			<p>
+				<label> Idioma:&nbsp&nbsp
+					<input type="radio" name="idioma" value="Ingles" required> Ingles &nbsp&nbsp&nbsp&nbsp
+   					 <input type="radio" name="idioma" value="Español" required /> Español
+   				</label>
+   			</p>
+			<p>
+				<label> Comentarios:<br>
+					<textarea name = "comentarios"
+						rows = "4" cols= "36">Escriba aqui. </textarea>
+				</label>
+			</p>
+			<p>
+				<input type = "submit" value = "Submit"/>
+				<input type = "reset"  value = "Clear" />
+			</p>
+		</form>
+	<hr>
+		<footer>
+			<p> Realizado por: A00942478 </p>
+		</footer>
+	</body>
+</html>
